@@ -19,7 +19,7 @@ const path = require("path");
 
 const PORT = 8000;
 const CLAUDE_MODEL = "claude-sonnet-5-5";   // "claude-haiku-4-5-20251001" is faster and cheaper
-const OPENAI_MODEL = "gpt-5-mini";          // see platform.openai.com/docs/models for current names
+const OPENAI_MODEL = "gpt-6-luna";          // OpenAI's smallest; see platform.openai.com/docs/models
 const MAX_TOKENS = 300;                     // the longest answer Claude may give
 
 
